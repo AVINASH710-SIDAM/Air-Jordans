@@ -17,7 +17,6 @@ const View3D = () => {
         <div className='lable'>
          {label}
         </div>
-
       </Html>
     
    )

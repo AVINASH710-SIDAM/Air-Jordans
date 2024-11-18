@@ -1,7 +1,6 @@
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 import React, { useLayoutEffect } from 'react'
-import { JordanGLTF } from '../JordanGLTF';
 import { useThree } from '@react-three/fiber';
 import gsap from 'gsap';
 import { useControls } from "leva";
@@ -106,7 +105,6 @@ const Jordan = () => {
          })
          .to(scene.position,{
             x: 2.31,
-           //x:-2.31,
             y: -0.01,
             z: -0.7,
             //duration:2,
@@ -135,7 +133,7 @@ const Jordan = () => {
     },[])
 
   return <>
-         <directionalLight castShadow position={[-2.38,1.32,0.74]}/>
+         <directionalLight position={[-2.38,1.32,0.74]}/>
          <group scale={10} position={[2,1,-1]} rotation-x={[-Math.PI * 0.5]}>
             <mesh geometry={nodes.shoe_shoe_0.geometry} material={materials.shoe}/>
             <mesh geometry={nodes.shoelace_shoelace_0.geometry} material={materials.shoelace}/>

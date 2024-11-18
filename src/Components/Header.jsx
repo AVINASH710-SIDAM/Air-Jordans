@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../style/Header.css';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,10 +9,10 @@ const Header = () => {
       <div className="container">
         <div className="logo">MyWebsite</div>
         <nav className="nav">
-        <NavLink to="/view3d"className="nav-link">Home</NavLink>
-        <NavLink to="/view3d" className="nav-link">About</NavLink>
-          <NavLink to="/view3d"className="nav-link">View3d</NavLink>
-          <NavLink to="/view3d"className="nav-link">Contact</NavLink>
+         <Link to="/"className="nav-link">Home</Link>
+          <Link to="/" className="nav-link">About</Link>
+          <Link to="/view3d"className="nav-link">View3d</Link>
+          <Link to="/"className="nav-link">Contact</Link>
         </nav>
       </div>
     </header>

@@ -27,7 +27,7 @@
   
  
   .buy-button {
-    background: linear-gradient(to right, #3b82f6, #2dd4bf); /* blue-500 to teal-500 */
+    background: linear-gradient(to right, #3b82f6, #2dd4bf); 
     color: white;
     font-weight: bold;
     padding: 12px 32px; 
@@ -40,6 +40,6 @@
   
 
   .buy-button:hover {
-    background: linear-gradient(to right, #ec4899, #f97316); /* pink-500 to orange-500 */
+    background: linear-gradient(to right, #ec4899, #f97316); 
   }
   
