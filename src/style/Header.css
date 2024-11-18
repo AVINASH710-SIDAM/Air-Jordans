@@ -1,0 +1,55 @@
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: blue;
+  }
+  
+  .active{
+    background-color: blue;
+    color: white;
+    border-radius: 2rem;
+    
+  }

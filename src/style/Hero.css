@@ -1,0 +1,31 @@
+.hero-section {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-content {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    z-index: 20;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    /* padding: 0; */
+    margin: 0;
+  }
+  
+  .hero-description {
+    max-width: 500px;
+    color: #f6ba23; 
+    text-align: justify;
+    font-size: 0.875rem; 
+    margin-top: 0;
+  }
+  

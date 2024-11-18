@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home"; // Import the Home component
+import View3D from "./Components/View3D"; // Import the View3D component
+import './App.css'; // Import the global styles for the app
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          {/* Main Page Route - Home */}
+          <Route path="/" element={<Home />} />
+          
+          {/* 3D Model View Page Route */}
+          <Route path="/view3d" element={<View3D />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

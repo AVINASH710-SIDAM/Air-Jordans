@@ -1,0 +1,33 @@
+
+.second-section {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 5rem; 
+  }
+  
+
+  .content {
+    color: white;
+    max-width: 500px;
+    text-align: right; 
+    margin-right: 70px;
+  }
+  
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    /* white-space: nowrap; */
+    margin: 0;
+  }
+  .description {
+    font-size: larger; 
+    font-weight: 600; 
+    white-space: nowrap;
+    margin-top: 0;
+    color: rgb(13, 164, 198);
+  }
+  

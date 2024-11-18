@@ -1,0 +1,38 @@
+
+.fullscreen-canvas {
+  width: 100vw;
+  height: 100vh; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; 
+  background: gray
+}
+
+
+.exit-button {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 20; 
+  font-weight: bold;
+}
+
+.lable{
+  background:#00000088;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding: 1px;
+  border-radius: 10px;
+  position: absolute;
+  overflow: hidden;
+   user-select: none;
+}
